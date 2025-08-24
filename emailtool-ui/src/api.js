@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5001/api';
-const AI_BASE_URL = 'http://localhost:5001'; // AI endpoints are directly on root
+const API_BASE_URL = 'https://web-production-2bef7.up.railway.app/api';
+const AI_BASE_URL = 'https://web-production-2bef7.up.railway.app'; // AI endpoints are directly on root
 
 const api = axios.create({
   baseURL: API_BASE_URL,
